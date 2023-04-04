@@ -1,5 +1,6 @@
 import ContactButton from "@/components/ContactButton";
 import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import Head from "next/head";
 import Image from "next/image";
 import { useRef } from "react";
