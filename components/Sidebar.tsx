@@ -70,7 +70,7 @@ const Sidebar = (props: {
 					<a
 						target="_blank"
 						href="https://wa.me/5492235440115"
-						className="flex transform duration-[300ms] hover:-translate-y-[5px] bg-transparent text-white font-primary-bold text-[20px] py-[10px] pl-[20px]"
+						className="flex transform duration-[300ms] w-full hover:-translate-y-[5px] bg-slate-800/50 text-white font-primary-bold text-[20px] py-[20px] pl-[20px]"
 					>
 						<div className="flex flex-row items-center">
 							<Image
