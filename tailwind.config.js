@@ -19,6 +19,7 @@ module.exports = {
 				"primary-semi-bold": ["SemiBold", "sans-serif"],
 				"primary-bold": ["Bold", "sans-serif"],
 				"primary-extra-bold": ["ExtraBold", "sans-serif"],
+				"title-bold": ["LogoBold", "sans-serif"],
 			},
 			backgroundImage: {
 				main: "url('../public/images/MainBg.jpg')",

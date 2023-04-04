@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Image from "next/image";
 
 const Sidebar = (props: {
 	open: boolean;
@@ -13,27 +13,35 @@ const Sidebar = (props: {
 	return (
 		<>
 			<div
-				className={`tablet:hidden transform duration-[800ms] w-2/3 right-0 fixed h-screen bg-gradient-to-r from-[#222531] to-[#323a5a] z-20 ${
+				className={`tablet:hidden transform duration-[800ms] w-2/3 right-0 fixed h-screen bg-gradient-to-r from-[#272727] to-[#3f3f3f] z-20 ${
 					props.open ? "translate-x-0" : "translate-x-[700px]"
 				}`}
 			>
 				{/* close sidebar button svg */}
-				<button onClick={props.onClose} className="top-0 left-0 m-[20px]">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						className="h-[30px] w-[30px] text-stone-200 tablet:hidden"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
+				<div className="w-full flex flex-row items-center h-[72px] bg-[#1f1e1e]/30">
+					<button
+						onClick={props.onClose}
+						className="top-0 my-[20px] ml-[20px] mr-[10px]"
 					>
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth={2}
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					</svg>
-				</button>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-[30px] w-[30px] text-stone-200 tablet:hidden"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth={2}
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</button>
+					<h1 className="top-0 font-title-bold text-[19px] text-white ml-[5px] tablet:hidden">
+						JR MECANIZADOS
+					</h1>
+				</div>
 				<div className="flex flex-col items-start">
 					<button
 						onClick={() => props.onNavigate("inicio")}
@@ -59,6 +67,22 @@ const Sidebar = (props: {
 					>
 						CONTACTO
 					</button>
+					<a
+						target="_blank"
+						href="https://wa.me/5492235440115"
+						className="flex transform duration-[300ms] hover:-translate-y-[5px] bg-transparent text-white font-primary-bold text-[20px] py-[10px] pl-[20px]"
+					>
+						<div className="flex flex-row items-center">
+							<Image
+								className="mr-[10px]"
+								src={"/images/WhatsApp.png"}
+								alt="WP Logo"
+								width={30}
+								height={30}
+							/>
+							+54 9 2235 440 115
+						</div>
+					</a>
 				</div>
 			</div>
 			<div
