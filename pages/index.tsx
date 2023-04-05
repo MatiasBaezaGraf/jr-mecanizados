@@ -1,4 +1,6 @@
+import Carousel from "@/components/Carousel";
 import ContactButton from "@/components/ContactButton";
+import ContactForm from "@/components/ContactForm";
 import Navbar from "@/components/Navbar";
 
 import Head from "next/head";
@@ -30,9 +32,8 @@ export default function Home() {
 						Siempre Ayudándote a Crecer
 					</h1>
 					<p className="font-primary-regular text-[20px] desktop:mb-[60px] laptop:w-[1200px] laptop:mb-[50px] tablet:w-[650px] tablet:mb-[60px] tablet:mx-[0px] mx-[20px] mb-[30px] text-center text-white">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						porta mollis orci ut mattis. Suspendisse malesuada metus eu enim
-						consectetur faucibus.
+						En JR Mecanizados, estamos comprometidos a ayudarte a crecer en tu
+						negocio con soluciones personalizadas y de alta calidad
 					</p>
 					<ContactButton />
 				</div>
@@ -122,35 +123,61 @@ export default function Home() {
 					id="nosotros"
 					className="flex flex-col items-center h-cut-screen bg-slate-900/60"
 				>
-					<h1 className="font-primary-extra-bold text-[35px] tablet:text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] pt-[50px]">
+					<h1 className="font-primary-extra-bold text-[35px] tablet:text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						¿Quiénes Somos?
 					</h1>
-					<div className="flex flex-col pt-[50px] tablet:pt-[80px] laptop:flex-row items-center desktop:justify-center desktop:pt-[100px] laptop:justify-end laptop:pt-[70px]">
+					<div className="flex flex-col pt-[20px] phone:pt-[50px] tablet:pt-[80px] laptop:flex-row items-center desktop:justify-center desktop:pt-[100px] laptop:justify-end laptop:pt-[70px]">
 						{/* ---------------------------------------- Paragraphs ---------------------------------------- */}
 						<div className="flex flex-col desktop:w-2/5 laptop:w-1/2 tablet:w-4/5 w-5/6 laptop:pl-[90px] text-center">
-							<p className="font-primary-regular text-[15px] tablet:text-[20px] text-white">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-								interdum, felis quis congue feugiat, dui nulla semper quam, non
-								pulvinar massa elit sed nibh. Donec imperdiet turpis et ornare
-								bibendum. Suspendisse odio erat, pharetra sit amet purus
-								lacinia, porttitor feugiat nibh. Ut feugiat, enim quis mollis
-								dignissim, diam dui mollis diam, sed commodo ligula lectus non
-								sem. Quisque condimentum velit nunc, sit amet placerat urna
-								tempus sollicitudin.
+							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white">
+								JR Mecanizados es una empresa de mecanizado de alta calidad
+								fundada recientemente por José y Ricardo, dos oriundos de
+								Escobar, Buenos Aires. Nos enorgullece seguir los más altos
+								estándares de calidad y servicio al cliente, siguiendo el
+								estándar de calidad ISO 9001. Nos enfocamos en brindar
+								soluciones personalizadas para satisfacer las necesidades de
+								cada uno de nuestros clientes. Cada trabajo que realizamos es
+								completado de manera óptima para cumplir con las expectativas de
+								nuestros clientes.
 							</p>
-							<p className="font-primary-regular text-[15px] tablet:text-[20px] text-white pt-[20px] pb-[50px] laptop:pb-[0px]">
-								Etiam ultricies, dui et convallis sollicitudin, sapien quam
-								porttitor libero, ut sagittis diam massa fermentum diam.
-								Suspendisse vitae enim in erat consectetur rutrum a ac nunc.
+							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white pt-[20px] pb-[50px] laptop:pb-[0px]">
+								Si estás interesado en conocer algunos de los trabajos que hemos
+								realizado en el pasado, a continuación, puedes ver algunos
+								ejemplos. Si necesitas un presupuesto o tienes alguna consulta,
+								no dudes en contactarnos. ¡Estamos aquí para ayudarte!
 							</p>
 						</div>
 						{/* ---------------------------------------- Carousel ---------------------------------------- */}
-						<div className="flex flex-col items-center justify-center desktop:w-2/5 laptop:w-1/2 w-5/6">
-							<Image
-								src={"/images/Carrousel.jpg"}
-								alt="Carousel"
-								width={486}
-								height={158}
+						<div className="flex flex-col items-center justify-center desktop:w-2/5 laptop:w-1/2 tablet:w-5/6 w-full">
+							<Carousel
+								images={[
+									"Carousel1.jpg",
+									"Carousel2.jpg",
+									"Carousel3.jpg",
+									"Carousel4.jpg",
+									"Carousel5.jpg",
+									"Carousel6.jpg",
+									"Carousel7.jpg",
+									"Carousel8.jpg",
+									"Carousel9.jpg",
+									"Carousel10.jpg",
+									"Carousel11.jpg",
+									"Carousel12.jpg",
+									"Carousel13.jpg",
+									"Carousel14.jpg",
+									"Carousel15.jpg",
+									"Carousel16.jpg",
+									"Carousel17.jpg",
+									"Carousel18.jpg",
+									"Carousel19.jpg",
+									"Carousel20.jpg",
+									"Carousel21.jpg",
+									"Carousel22.jpg",
+									"Carousel23.jpg",
+									"Carousel24.jpg",
+									"Carousel25.jpg",
+									"Carousel26.jpg",
+								]}
 							/>
 						</div>
 					</div>
@@ -160,31 +187,11 @@ export default function Home() {
 					id="contacto"
 					className="flex flex-col items-center h-cut-screen bg-[#343434]/95"
 				>
-					<h1 className="font-primary-extra-bold text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] pt-[50px]">
+					<h1 className="font-primary-extra-bold text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						Contacto
 					</h1>
 					{/* ---------------------------------------- Form ---------------------------------------- */}
-					<form>
-						<div className="flex flex-col items-center laptop:items-start justify-center desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] pt-[50px]">
-							<input
-								className="font-primary-regular text-[20px] text-white w-full tablet:w-[600px] laptop:w-[1100px] p-[10px] mb-[20px] rounded bg-[#4D4D4D] border-b-[2px] border-[#4D4D4D] focus:outline-none focus:border-b-[2px] focus:border-[#5271FF] focus:bg-[#5c5c5c]"
-								type="text"
-								placeholder="Nombre..."
-							/>
-							<input
-								className="font-primary-regular text-[20px] text-white w-full tablet:w-[600px] laptop:w-[1100px] p-[10px] mb-[20px] rounded bg-[#4D4D4D] border-b-[2px] border-[#4D4D4D] focus:outline-none focus:border-b-[2px] focus:border-[#5271FF] focus:bg-[#5c5c5c]"
-								type="mail"
-								placeholder="Mail..."
-							/>
-							<textarea
-								className="font-primary-regular text-[20px] text-white w-full tablet:w-[600px] laptop:w-[1100px] p-[10px] mb-[60px] laptop:mb-[20px] desktop:h-[250px] laptop:h-[200px] tablet:h-[450px] h-[300px] rounded bg-[#4D4D4D] border-b-[2px] border-[#4D4D4D] focus:outline-none focus:border-b-[2px] focus:border-[#5271FF] focus:bg-[#5c5c5c] resize-none"
-								placeholder="Mensaje..."
-							/>
-							<button className="transform duration-[300ms] hover:scale-105 bg-[#387546] p-[10px] px-[30px] font-primary-bold text-[20px] text-white rounded-lg border-b-[3px] border-[#295d35]">
-								Enviar
-							</button>
-						</div>
-					</form>
+					<ContactForm />
 				</div>
 			</div>
 		</>
