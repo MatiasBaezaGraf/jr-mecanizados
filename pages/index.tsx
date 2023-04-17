@@ -177,6 +177,16 @@ export default function Home() {
 									"Carousel24.jpg",
 									"Carousel25.jpg",
 									"Carousel26.jpg",
+									"Carousel27.jpg",
+									"Carousel28.jpg",
+									"Carousel29.jpg",
+									"Carousel30.jpg",
+									"Carousel31.jpg",
+									"Carousel32.jpg",
+									"Carousel33.jpg",
+									"Carousel34.jpg",
+									"Carousel35.jpg",
+									"Carousel36.jpg",
 								]}
 							/>
 						</div>
