@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 interface CarouselProps {
 	images: string[];
@@ -30,12 +31,14 @@ const Carousel = ({ images }: CarouselProps) => {
 	return (
 		<div className="relative w-full laptop:w-5/6 desktop:w-11/12">
 			<div className="flex flex-row  bg-black/50 tablet:rounded-md shadow-lg">
-				<img
+				<Image
 					src={`/images/carousel/${images[currentImageIndex]}`}
 					alt=""
 					className={`w-full h-auto object-contain tablet:rounded-md transition duration-[200ms] ${
 						transition ? "opacity-0 scale-95" : "opacity-100 scale-100"
 					}`}
+					width={1920}
+					height={1080}
 				/>
 			</div>
 

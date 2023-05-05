@@ -66,8 +66,10 @@ export default function Home() {
 									Fabricación según plano
 								</h1>
 								<p className="font-primary-regular text-[12px] tablet:text-[14px] text-white text-start laptop:text-center pt-[10px] tablet:w-[390px]">
-									Nos traes el plano de la o las piezas, y nosotros las
-									fabricamos, siguiendo el estándar de calidad ISO 9001.
+									Nos complace ofrecerle nuestros servicios de fabricación
+									personalizada. Proporciónenos los planos de las piezas y
+									seguiremos el estándar de calidad ISO 9001 para garantizar un
+									producto final de la más alta calidad.
 								</p>
 							</div>
 						</div>
@@ -86,8 +88,10 @@ export default function Home() {
 									Copia De Piezas
 								</h1>
 								<p className="font-primary-regular text-[12px] tablet:text-[14px] text-white text-start laptop:text-center pt-[10px] tablet:w-[390px]">
-									Nos traes la pieza que querés que fabriquemos, y hacemos
-									cuantas necesites.
+									Si nos proporciona la pieza que desea, estaremos encantados de
+									fabricar las unidades necesarias. Nuestro objetivo es
+									proporcionar copias de la más alta calidad y cumplir con sus
+									requisitos específicos.
 								</p>
 							</div>
 						</div>
@@ -106,9 +110,10 @@ export default function Home() {
 									Elaboración De Planos
 								</h1>
 								<p className="font-primary-regular text-[12px] tablet:text-[14px] text-white text-start laptop:text-center pt-[10px]  tablet:w-[390px]">
-									Va de la mano con la copia de piezas. A partir de una pieza
-									existente, te elaboramos el plano de la misma según el
-									estándar de calidad ISO 9001.
+									Ofrecemos servicios de elaboración de planos de piezas a
+									partir de una pieza existente, siguiendo los estándares de
+									calidad de la norma ISO 9001. Si necesita obtener el plano de
+									una pieza existente, podemos ayudarlo.
 								</p>
 							</div>
 						</div>
@@ -126,21 +131,20 @@ export default function Home() {
 					<h1 className="font-primary-extra-bold text-[35px] tablet:text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						¿Quiénes Somos?
 					</h1>
-					<div className="flex flex-col pt-[20px] phone:pt-[50px] tablet:pt-[80px] laptop:flex-row items-center desktop:justify-center desktop:pt-[100px] laptop:justify-end laptop:pt-[70px]">
+					<div className="flex flex-col pt-[20px] phone:pt-[50px] tablet:pt-[80px] laptop:flex-row items-center desktop:justify-center desktop:pt-[100px] laptop:justify-end laptop:pt-[70px] ">
 						{/* ---------------------------------------- Paragraphs ---------------------------------------- */}
 						<div className="flex flex-col desktop:w-2/5 laptop:w-1/2 tablet:w-4/5 w-5/6 laptop:pl-[90px] text-center">
-							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white">
-								JR Mecanizados es una empresa de mecanizado de alta calidad
-								fundada recientemente por José y Ricardo, dos oriundos de
-								Escobar, Buenos Aires. Nos enorgullece seguir los más altos
-								estándares de calidad y servicio al cliente, siguiendo el
-								estándar de calidad ISO 9001. Nos enfocamos en brindar
-								soluciones personalizadas para satisfacer las necesidades de
-								cada uno de nuestros clientes. Cada trabajo que realizamos es
-								completado de manera óptima para cumplir con las expectativas de
-								nuestros clientes.
+							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white bg-black/70 p-[20px] rounded-t">
+								Somos una empresa de mecanizado de alta calidad fundada por José
+								y Ricardo, dos oriundos de Escobar, Buenos Aires. Nos
+								enorgullece seguir los más altos estándares de calidad y
+								servicio al cliente, siguiendo el estándar de calidad ISO 9001.
+								Nos enfocamos en brindar soluciones personalizadas para
+								satisfacer las necesidades de cada uno de nuestros clientes.
+								Cada trabajo que realizamos es completado de manera óptima para
+								cumplir con las expectativas de nuestros clientes.
 							</p>
-							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white pt-[20px] pb-[50px] laptop:pb-[0px]">
+							<p className="font-primary-regular text-[12px] tablet:text-[20px] text-white pt-[20px] mb-[25px] pb-[25px] laptop:pb-[25px] laptop:mb-[0px] bg-black/70 px-[20px] rounded-b">
 								Si estás interesado en conocer algunos de los trabajos que hemos
 								realizado en el pasado, a continuación, puedes ver algunos
 								ejemplos. Si necesitas un presupuesto o tienes alguna consulta,
@@ -177,16 +181,16 @@ export default function Home() {
 									"Carousel24.jpg",
 									"Carousel25.jpg",
 									"Carousel26.jpg",
-									"Carousel27.jpg",
-									"Carousel28.jpg",
-									"Carousel29.jpg",
-									"Carousel30.jpg",
+									"Carousel27.jpeg",
+									"Carousel28.jpeg",
+									"Carousel29.jpeg",
+									"Carousel30.jpeg",
 									"Carousel31.jpg",
 									"Carousel32.jpg",
-									"Carousel33.jpg",
-									"Carousel34.jpg",
-									"Carousel35.jpg",
-									"Carousel36.jpg",
+									"Carousel33.jpeg",
+									"Carousel34.jpeg",
+									"Carousel35.jpeg",
+									"Carousel36.jpeg",
 								]}
 							/>
 						</div>
