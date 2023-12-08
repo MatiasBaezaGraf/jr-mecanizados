@@ -18,7 +18,7 @@ export default function Home() {
 			<Navbar />
 			{/* ---------------------------------------- Landing Page ---------------------------------------- */}
 
-			<div id="inicio" className="bg-main bg-cover h-screen">
+			<div id="inicio" className="bg-main bg-cover min-h-screen">
 				{/* The following div exists to give a lower opacity to the background image. */}
 				<div className="flex flex-col items-center desktop:pt-[150px] laptop:pt-[120px] tablet:pt-[200px] pt-[120px] bg-slate-900/50 h-screen">
 					<Image
@@ -29,7 +29,7 @@ export default function Home() {
 						height={150}
 					/>
 					<h1 className="font-primary-extra-bold desktop:text-[70px] laptop:mb-[0px] laptop:text-[60px] tablet:text-[50px] mb-[40px] text-[40px] text-center text-white">
-						Siempre Ayudándote a Crecer
+						Acompañando a la industria
 					</h1>
 					<p className="font-primary-regular text-[20px] desktop:mb-[60px] laptop:w-[1200px] laptop:mb-[50px] tablet:w-[650px] tablet:mb-[60px] tablet:mx-[0px] mx-[20px] mb-[30px] text-center text-white">
 						En JR Mecanizados, estamos comprometidos a ayudarte a crecer en tu
@@ -39,7 +39,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* ---------------------------------------- Services ---------------------------------------- */}
-			<div id="servicios" className="flex flex-col h-cut-screen">
+			<div id="servicios" className="flex flex-col min-h-screen">
 				{/* ---------------------------------------- Services Header ---------------------------------------- */}
 				<div className="flex flex-col items-center justify-center h-[152px] bg-[#464646]">
 					<h1 className="font-primary-extra-bold text-[40px] text-white">
@@ -51,7 +51,7 @@ export default function Home() {
 				</div>
 				{/* ---------------------------------------- Services Cards ---------------------------------------- */}
 				<div className="flex-1 text-center laptop:pt-[20px] desktop:pt-[90px] bg-gradient-to-l from-[#363636] to-[#2c2c2c] laptop:pb-[20px]">
-					<div className="flex mx-[15px]  tablet:h-4/5 tablet:mb-[35px] flex-col tablet:items-center justify-start tablet:justify-around laptop:items-start laptop:flex-row laptop:justify-around desktop:justify-center desktop:h-auto desktop:mb-[85px]">
+					<div className="flex mt-[15px] mx-[15px] gap-[20px] tablet:h-4/5 tablet:mb-[35px] flex-col tablet:items-center justify-start tablet:justify-around laptop:items-start laptop:flex-row laptop:justify-around desktop:justify-center desktop:h-auto desktop:mb-[85px]">
 						{/* ---------------------------------------- CARD 1 ---------------------------------------- */}
 						<div className="flex flex-row laptop:flex-col items-start tablet:items-center desktop:mx-[30px] mt-[30px] tablet:mt-[0px]">
 							<Image
@@ -126,7 +126,7 @@ export default function Home() {
 				{/* ---------------------------------------- About ---------------------------------------- */}
 				<div
 					id="nosotros"
-					className="flex flex-col items-center h-cut-screen bg-slate-900/60"
+					className="flex flex-col items-center min-h-screen bg-slate-900/60"
 				>
 					<h1 className="font-primary-extra-bold text-[35px] tablet:text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						¿Quiénes Somos?
@@ -199,7 +199,7 @@ export default function Home() {
 				{/* ---------------------------------------- Contact ---------------------------------------- */}
 				<div
 					id="contacto"
-					className="flex flex-col items-center h-cut-screen bg-[#343434]/95"
+					className="flex flex-col items-center min-h-screen bg-[#343434]/95"
 				>
 					<h1 className="font-primary-extra-bold text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						Contacto
