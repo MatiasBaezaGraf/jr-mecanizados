@@ -50,7 +50,7 @@ export default function Home() {
 					</h2>
 				</div>
 				{/* ---------------------------------------- Services Cards ---------------------------------------- */}
-				<div className="flex-1 text-center laptop:pt-[20px] desktop:pt-[90px] bg-gradient-to-l from-[#363636] to-[#2c2c2c] laptop:pb-[20px]">
+				<div className="flex-1 text-center laptop:pt-[20px] desktop:pt-[90px] bg-gradient-to-l from-[#363636] to-[#2c2c2c] pb-[20px]">
 					<div className="flex mt-[15px] mx-[15px] gap-[20px] tablet:h-4/5 tablet:mb-[35px] flex-col tablet:items-center justify-start tablet:justify-around laptop:items-start laptop:flex-row laptop:justify-around desktop:justify-center desktop:h-auto desktop:mb-[85px]">
 						{/* ---------------------------------------- CARD 1 ---------------------------------------- */}
 						<div className="flex flex-row laptop:flex-col items-start tablet:items-center desktop:mx-[30px] mt-[30px] tablet:mt-[0px]">
