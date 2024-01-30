@@ -156,12 +156,12 @@ export default function Home() {
 							<Carousel
 								images={[
 									"Carousel1.jpg",
-									"Carousel2.jpg",
-									"Carousel3.jpg",
-									"Carousel4.jpg",
-									"Carousel5.jpg",
-									"Carousel6.jpg",
-									"Carousel7.jpg",
+									"Carousel2.jpeg",
+									"Carousel3.jpeg",
+									"Carousel4.jpeg",
+									"Carousel5.jpeg",
+									"Carousel6.jpeg",
+									"Carousel7.jpeg",
 									"Carousel8.jpg",
 									"Carousel9.jpg",
 									"Carousel10.jpg",
@@ -191,6 +191,17 @@ export default function Home() {
 									"Carousel34.jpeg",
 									"Carousel35.jpeg",
 									"Carousel36.jpeg",
+									"Carousel37.jpeg",
+									"Carousel38.jpeg",
+									"Carousel39.jpeg",
+									"Carousel40.jpeg",
+									"Carousel41.jpeg",
+									"Carousel42.jpeg",
+									"Carousel43.jpeg",
+									"Carousel44.jpeg",
+									"Carousel45.jpeg",
+									"Carousel46.jpeg",
+									"Carousel47.jpeg",
 								]}
 							/>
 						</div>
