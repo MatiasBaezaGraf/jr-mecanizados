@@ -115,6 +115,12 @@ const Sidebar = (props: {
 							</h2>
 						</div>
 					</a>
+					<a
+						href="mailto:stimmjr@gmail.com"
+						className="flex transform duration-[300ms] w-full  text-white  bg-black/40 py-[10px] pl-[20px] font-primary-semi-bold text-[20px] underline"
+					>
+						stimmjr@gmail.com
+					</a>
 				</div>
 			</div>
 			{/* Backdrop Filter */}
