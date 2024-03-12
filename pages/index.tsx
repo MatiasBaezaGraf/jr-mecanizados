@@ -215,6 +215,13 @@ export default function Home() {
 					<h1 className="font-primary-extra-bold text-[45px] text-white desktop:pt-[100px] laptop:pt-[70px] tablet:pt-[80px] phone:pt-[50px] pt-[20px]">
 						Contacto
 					</h1>
+
+					<a
+						href="mailto:stimmjr@gmail.com"
+						className="font-primary text-neutral-400 text-[25px] z-40 underline"
+					>
+						stimmjr@gmail.com
+					</a>
 					{/* ---------------------------------------- Form ---------------------------------------- */}
 					<ContactForm />
 				</div>
