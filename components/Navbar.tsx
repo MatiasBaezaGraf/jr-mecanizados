@@ -71,9 +71,6 @@ const Navbar = () => {
 						width={70}
 						height={70}
 					/>
-					<h1 className="font-title-bold text-[19px] text-white ml-[5px] hidden laptop:block">
-						JR MECANIZADOS
-					</h1>
 				</div>
 				{/* --------------------------------------------- Navbar Buttons --------------------------------------------- */}
 				<div className="flex flex-row">
