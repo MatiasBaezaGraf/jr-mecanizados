@@ -30,8 +30,3 @@ body::-webkit-scrollbar {
 	font-family: "Light";
 	src: url("/fonts/OpenSans-Light.ttf");
 }
-
-@font-face {
-	font-family: "LogoBold";
-	src: url("/fonts/TT-Norms-Pro-Bold.otf");
-}

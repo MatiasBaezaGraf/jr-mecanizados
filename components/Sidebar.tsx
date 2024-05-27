@@ -38,7 +38,7 @@ const Sidebar = (props: {
 							/>
 						</svg>
 					</button>
-					<h1 className="top-0 font-title-bold text-[19px] text-white ml-[5px] tablet:hidden">
+					<h1 className="top-0 font-primary-extra-bold text-[19px] text-white ml-[5px] tablet:hidden">
 						JR MECANIZADOS
 					</h1>
 				</div>
